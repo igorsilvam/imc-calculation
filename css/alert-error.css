@@ -1,0 +1,16 @@
+.alert-error.open {
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.alert-error {
+  visibility: hidden;
+  width: 100%;
+  padding: 0.8rem 0rem;
+  text-align: center;
+  font-weight: bold;
+  color: var(--primary-color);
+  background: var(--background-error-color);
+  transform: translateY(-30px);
+  transition: transform 0.3s;
+}
